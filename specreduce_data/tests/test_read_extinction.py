@@ -7,10 +7,10 @@ from ..readers import read_basic_ascii_table
 
 def test_read_extinction():
     ext_dir = os.path.join("reference_data", "extinction")
-    for f in pkg_resources.resource_listdir("specreduce-data", ext_dir):
+    for f in pkg_resources.resource_listdir("specreduce_data", ext_dir):
         if ".dat" in f:
             ext_path = pkg_resources.resource_filename(
-                "specreduce-data",
+                "specreduce_data",
                 os.path.join(ext_dir, f)
             )
             t = read_basic_ascii_table(ext_path)
