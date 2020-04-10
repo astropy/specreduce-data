@@ -5,6 +5,7 @@ import pkg_resources
 
 from ..readers import read_basic_ascii_table
 
+
 def test_read_extinction():
     ext_dir = os.path.join("reference_data", "extinction")
     for f in pkg_resources.resource_listdir("specreduce_data", ext_dir):
