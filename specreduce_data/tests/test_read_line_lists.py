@@ -17,6 +17,7 @@ def test_read_line_lists():
             assert(len(t) > 0)
             assert(len(t.columns) >= 1)
         except astropy.io.ascii.core.InconsistentTableError as e:
+            orig_e = e.__class__.__name__
             try:
                 t = read_basic_ascii_table(
                     f,
@@ -28,5 +29,5 @@ def test_read_line_lists():
                 assert(len(t) > 0)
                 assert(len(t.columns) >= 1)
             except Exception as e:
-                msg = f"Failed to load {f} as a AstroPy Table: {e.__class__.__name__}"
+                msg = f"Failed to load {f} as a AstroPy Table: {orig_e} {e.__class__.__name__}"
                 warnings.warn(msg)
