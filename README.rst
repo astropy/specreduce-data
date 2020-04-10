@@ -5,6 +5,14 @@ Test and reference data for the specreduce package
     :target: http://www.astropy.org
     :alt: Powered by Astropy Badge
 
+.. image:: https://github.com/astropy/specreduce-data/workflows/Python%20Tests/badge.svg
+    :target: https://github.com/astropy/specreduce-data/actions
+    :alt: Python Test Status on Github Actions
+
+This repository contains general reference data for spectroscopic data reduction
+(e.g. standard star spectra, atmospheric extinction curves, line lists for calibration
+lamps) and test data for the specreduce package.
+
 
 License
 -------
