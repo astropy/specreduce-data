@@ -33,7 +33,7 @@ Described in https://www.ing.iac.es/Astronomy/observing/manuals/ps/tech_notes/tn
 
 5. `mthamextinct.dat`: Extinction table for Lick Observatory on Mt. Hamilton constructed from https://mthamilton.ucolick.org/techdocs/standards/lick_mean_extinct.html.
 
-6. `paranalextinct.dat`: Extinction table for ESO-Paranal taken from http://www.eso.org/sci/facilities/eelt/science/drm/tech_data/data/atm_scat/paranal.dat. See also https://www.aanda.org/articles/aa/pdf/2011/03/aa15537-10.pdf for updated version.
+6. `paranalextinct.dat`: Updated extinction table for ESO-Paranal taken from https://www.aanda.org/articles/aa/pdf/2011/03/aa15537-10.pdf.
 
 7. `apoextinct.dat`: Extinction table for Apache Point Observatory. Based on the extinction table used for SDSS and
 available at https://www.apo.nmsu.edu/arc35m/Instruments/DIS/ (https://www.apo.nmsu.edu/arc35m/Instruments/DIS/images/apoextinct.dat).
