@@ -86,7 +86,7 @@ there for details and references.
 See https://www.eso.org/sci/observing/tools/standards/spectra/stanlis.html for links, notes, and details.
 
 * gemini - Directory of spectrophotometric standards used by Gemini. Originally copied from
-https://github.com/GeminiDRSoftware/DRAGONS/tree/main/geminidr/gemini/lookups/spectrophotometric_standards.
+https://github.com/GeminiDRSoftware/DRAGONS/tree/master/geminidr/gemini/lookups/spectrophotometric_standards.
 
 
 Standard Star Menus
